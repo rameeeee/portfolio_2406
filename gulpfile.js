@@ -7,7 +7,6 @@ var buffer = require('vinyl-buffer');
 var browserSync = require('browser-sync');
 
 
-
 gulp.task('sass', function() {
     return gulp.src('src/scss/*.scss')
         .pipe(sass())

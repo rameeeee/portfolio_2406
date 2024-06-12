@@ -465,6 +465,7 @@ a {
       margin-right: 0; }
 
 .section_tech {
+  padding-bottom: 150px;
   background: #0A3255;
   color: #fff;
   text-align: center; }
@@ -539,6 +540,8 @@ a {
     box-sizing: border-box; }
     .section_tech .text_wrap.on .tech_box {
       display: block; }
+    .section_tech .text_wrap.on .ico_go {
+      bottom: 0; }
   .section_tech .tech_box {
     display: none;
     margin-top: 30px; }
@@ -553,6 +556,7 @@ a {
     .section_tech .tech_box .tech_list_wrap {
       padding: 30px 20px 20px;
       margin: 30px 0 0;
+      background: #0A3255;
       -webkit-border-radius: 20px;
       -moz-border-radius: 20px;
       border-radius: 20px;
@@ -594,7 +598,7 @@ a {
           font-size: 14px;
           color: #000; }
   .section_tech .ico_go {
-    bottom: -80px;
+    bottom: -20px;
     background: url(../img/ico_down.png) 50% 50% no-repeat;
     -moz-background-size: 100% auto;
     background-size: 100% auto;
@@ -634,7 +638,11 @@ a {
       text-shadow: -1em -1em 0em rgba(255, 255, 255, 0.25), -2em -2em 0em rgba(255, 255, 255, 0.25), -3em -3em 0em rgba(255, 255, 255, 0.25), -4em -4em 0em rgba(255, 255, 255, 0.5), -5em -5em 0em rgba(255, 255, 255, 0.5), -6em -6em 0em rgba(255, 255, 255, 0.5), -7em -7em 0em rgba(255, 255, 255, 0.5), -8em -8em 0em rgba(255, 255, 255, 0.5), -9em -9em 0em rgba(255, 255, 255, 0.5), -10em -10em 0em rgba(255, 255, 255, 0.5), -11em -11em 0em rgba(255, 255, 255, 0.5), -12em -12em 0em rgba(255, 255, 255, 0.5), -13em -13em 0em rgba(255, 255, 255, 0.5), -14em -14em 0em rgba(255, 255, 255, 0.5), -15em -15em 0em rgba(255, 255, 255, 0.5), -16em -16em 0em rgba(255, 255, 255, 0.5), -17em -17em 0em rgba(255, 255, 255, 0.5), -18em -18em 0em rgba(255, 255, 255, 0.5), -19em -19em 0em rgba(255, 255, 255, 0.5), -20em -20em 0em rgba(255, 255, 255, 0.5), 1em 1em 0em rgba(255, 255, 255, 0.25), 2em 2em 0em rgba(255, 255, 255, 0.25), 3em 3em 0em rgba(255, 255, 255, 0.25), 4em 4em 0em rgba(255, 255, 255, 0.5), 5em 5em 0em rgba(255, 255, 255, 0.5), 6em 6em 0em rgba(255, 255, 255, 0.5), 7em 7em 0em rgba(255, 255, 255, 0.5), 8em 8em 0em rgba(255, 255, 255, 0.5), 9em 9em 0em rgba(255, 255, 255, 0.5), 10em 10em 0em rgba(255, 255, 255, 0.5), 11em 11em 0em rgba(255, 255, 255, 0.5), 12em 12em 0em rgba(255, 255, 255, 0.5), 13em 13em 0em rgba(255, 255, 255, 0.5), 14em 14em 0em rgba(255, 255, 255, 0.5), 15em 15em 0em rgba(255, 255, 255, 0.5), 16em 16em 0em rgba(255, 255, 255, 0.5), 17em 17em 0em rgba(255, 255, 255, 0.5), 18em 18em 0em rgba(255, 255, 255, 0.5), 19em 19em 0em rgba(255, 255, 255, 0.5), 20em 20em 0em rgba(255, 255, 255, 0.5), 10em 0em 0em rgba(255, 255, 255, 0.25), 9em -1em 0em rgba(255, 255, 255, 0.25), 8em -2em 0em rgba(255, 255, 255, 0.25), 7em -3em 0em rgba(255, 255, 255, 0.25), 6em -4em 0em rgba(255, 255, 255, 0.5), 5em -5em 0em rgba(255, 255, 255, 0.5), 4em -6em 0em rgba(255, 255, 255, 0.5), 3em -7em 0em rgba(255, 255, 255, 0.5), 2em -8em 0em rgba(255, 255, 255, 0.5), 1em -9em 0em rgba(255, 255, 255, 0.5), 0em -10em 0em rgba(255, 255, 255, 0.5), -1em -11em 0em rgba(255, 255, 255, 0.5), -2em -12em 0em rgba(255, 255, 255, 0.5), -3em -13em 0em rgba(255, 255, 255, 0.5), -4em -14em 0em rgba(255, 255, 255, 0.5), -5em -15em 0em rgba(255, 255, 255, 0.5), -6em -16em 0em rgba(255, 255, 255, 0.5), -7em -17em 0em rgba(255, 255, 255, 0.5), -8em -18em 0em rgba(255, 255, 255, 0.5), -9em -19em 0em rgba(255, 255, 255, 0.5), -10em -20em 0em rgba(255, 255, 255, 0.5), 20em 0em 0em rgba(255, 255, 255, 0.5), 19em -1em 0em rgba(255, 255, 255, 0.5), 18em -2em 0em rgba(255, 255, 255, 0.5), 17em -3em 0em rgba(255, 255, 255, 0.5), 16em -4em 0em rgba(255, 255, 255, 0.5), 15em -5em 0em rgba(255, 255, 255, 0.5), 14em -6em 0em rgba(255, 255, 255, 0.5), 13em -7em 0em rgba(255, 255, 255, 0.5), 12em -8em 0em rgba(255, 255, 255, 0.5), 11em -9em 0em rgba(255, 255, 255, 0.5), 10em -10em 0em rgba(255, 255, 255, 0.5), 9em -11em 0em rgba(255, 255, 255, 0.5), 8em -12em 0em rgba(255, 255, 255, 0.5), 7em -13em 0em rgba(255, 255, 255, 0.5), 6em -14em 0em rgba(255, 255, 255, 0.5), 5em -15em 0em rgba(255, 255, 255, 0.5), 4em -16em 0em rgba(255, 255, 255, 0.5), 3em -17em 0em rgba(255, 255, 255, 0.5), 2em -18em 0em rgba(255, 255, 255, 0.5), 1em -19em 0em rgba(255, 255, 255, 0.5), 0em -20em 0em rgba(255, 255, 255, 0.5), 30em 0em 0em rgba(255, 255, 255, 0.5), 29em -1em 0em rgba(255, 255, 255, 0.5), 28em -2em 0em rgba(255, 255, 255, 0.5), 27em -3em 0em rgba(255, 255, 255, 0.5), 26em -4em 0em rgba(255, 255, 255, 0.5), 25em -5em 0em rgba(255, 255, 255, 0.5), 24em -6em 0em rgba(255, 255, 255, 0.5), 23em -7em 0em rgba(255, 255, 255, 0.5), 22em -8em 0em rgba(255, 255, 255, 0.5), 21em -9em 0em rgba(255, 255, 255, 0.5), 20em -10em 0em rgba(255, 255, 255, 0.5), 19em -11em 0em rgba(255, 255, 255, 0.5), 18em -12em 0em rgba(255, 255, 255, 0.5), 17em -13em 0em rgba(255, 255, 255, 0.5), 16em -14em 0em rgba(255, 255, 255, 0.5), 15em -15em 0em rgba(255, 255, 255, 0.5), 14em -16em 0em rgba(255, 255, 255, 0.5), 13em -17em 0em rgba(255, 255, 255, 0.5), 12em -18em 0em rgba(255, 255, 255, 0.5), 10em -19em 0em rgba(255, 255, 255, 0.5), 9em -20em 0em rgba(255, 255, 255, 0.5), 11em 1em 0em rgba(255, 255, 255, 0.25), 12em 2em 0em rgba(255, 255, 255, 0.25), 13em 3em 0em rgba(255, 255, 255, 0.25), 14em 4em 0em rgba(255, 255, 255, 0.5), 15em 5em 0em rgba(255, 255, 255, 0.5), 16em 6em 0em rgba(255, 255, 255, 0.5), 17em 7em 0em rgba(255, 255, 255, 0.5), 18em 8em 0em rgba(255, 255, 255, 0.5), 19em 9em 0em rgba(255, 255, 255, 0.5), 20em 10em 0em rgba(255, 255, 255, 0.5), 21em 11em 0em rgba(255, 255, 255, 0.5), 22em 12em 0em rgba(255, 255, 255, 0.5), 23em 13em 0em rgba(255, 255, 255, 0.5), 24em 14em 0em rgba(255, 255, 255, 0.5), 25em 15em 0em rgba(255, 255, 255, 0.5), 26em 16em 0em rgba(255, 255, 255, 0.5), 27em 17em 0em rgba(255, 255, 255, 0.5), 28em 18em 0em rgba(255, 255, 255, 0.5), 29em 19em 0em rgba(255, 255, 255, 0.5), 30em 20em 0em rgba(255, 255, 255, 0.5), 21em 1em 0em rgba(255, 255, 255, 0.5), 22em 2em 0em rgba(255, 255, 255, 0.5), 23em 3em 0em rgba(255, 255, 255, 0.5), 24em 4em 0em rgba(255, 255, 255, 0.5), 25em 5em 0em rgba(255, 255, 255, 0.5), 26em 6em 0em rgba(255, 255, 255, 0.5), 27em 7em 0em rgba(255, 255, 255, 0.5), 28em 8em 0em rgba(255, 255, 255, 0.5), 29em 9em 0em rgba(255, 255, 255, 0.5), 30em 10em 0em rgba(255, 255, 255, 0.5), 31em 11em 0em rgba(255, 255, 255, 0.5), 32em 12em 0em rgba(255, 255, 255, 0.5), 33em 13em 0em rgba(255, 255, 255, 0.5), 34em 14em 0em rgba(255, 255, 255, 0.5), 35em 15em 0em rgba(255, 255, 255, 0.5), 36em 16em 0em rgba(255, 255, 255, 0.5), 37em 17em 0em rgba(255, 255, 255, 0.5), 38em 18em 0em rgba(255, 255, 255, 0.5), 39em 19em 0em rgba(255, 255, 255, 0.5), 40em 20em 0em rgba(255, 255, 255, 0.5), -10em 0em 0em rgba(255, 255, 255, 0.25), -9em 1em 0em rgba(255, 255, 255, 0.25), -8em 2em 0em rgba(255, 255, 255, 0.25), -7em 3em 0em rgba(255, 255, 255, 0.25), -6em 4em 0em rgba(255, 255, 255, 0.5), -5em 5em 0em rgba(255, 255, 255, 0.5), -4em 6em 0em rgba(255, 255, 255, 0.5), -3em 7em 0em rgba(255, 255, 255, 0.5), -2em 8em 0em rgba(255, 255, 255, 0.5), -1em 9em 0em rgba(255, 255, 255, 0.5), 0em 10em 0em rgba(255, 255, 255, 0.5), 1em 11em 0em rgba(255, 255, 255, 0.5), 2em 12em 0em rgba(255, 255, 255, 0.5), 3em 13em 0em rgba(255, 255, 255, 0.5), 4em 14em 0em rgba(255, 255, 255, 0.5), 5em 15em 0em rgba(255, 255, 255, 0.5), 6em 16em 0em rgba(255, 255, 255, 0.5), 7em 17em 0em rgba(255, 255, 255, 0.5), 8em 18em 0em rgba(255, 255, 255, 0.5), 9em 19em 0em rgba(255, 255, 255, 0.5), 8em 20em 0em rgba(255, 255, 255, 0.5), -30em -10em 0em rgba(255, 255, 255, 0.5), -29em -9em 0em rgba(255, 255, 255, 0.5), -28em -8em 0em rgba(255, 255, 255, 0.5), -27em -7em 0em rgba(255, 255, 255, 0.5), -26em -6em 0em rgba(255, 255, 255, 0.5), -25em -5em 0em rgba(255, 255, 255, 0.5), -24em -4em 0em rgba(255, 255, 255, 0.5), -23em -3em 0em rgba(255, 255, 255, 0.5), -22em -2em 0em rgba(255, 255, 255, 0.5), -21em -1em 0em rgba(255, 255, 255, 0.5), -20em 0em 0em rgba(255, 255, 255, 0.5), -19em 1em 0em rgba(255, 255, 255, 0.5), -18em 2em 0em rgba(255, 255, 255, 0.5), -17em 3em 0em rgba(255, 255, 255, 0.5), -16em 4em 0em rgba(255, 255, 255, 0.5), -15em 5em 0em rgba(255, 255, 255, 0.5), -14em 6em 0em rgba(255, 255, 255, 0.5), -13em 7em 0em rgba(255, 255, 255, 0.5), -12em 8em 0em rgba(255, 255, 255, 0.5), -11em 9em 0em rgba(255, 255, 255, 0.5), -10em 10em 0em rgba(255, 255, 255, 0.5), -9em 11em 0em rgba(255, 255, 255, 0.5), -8em 12em 0em rgba(255, 255, 255, 0.5), -7em 13em 0em rgba(255, 255, 255, 0.5), -6em 14em 0em rgba(255, 255, 255, 0.5), -5em 15em 0em rgba(255, 255, 255, 0.5), -4em 16em 0em rgba(255, 255, 255, 0.5), -3em 17em 0em rgba(255, 255, 255, 0.5), -2em 18em 0em rgba(255, 255, 255, 0.5), -1em 19em 0em rgba(255, 255, 255, 0.5), 0em 20em 0em rgba(255, 255, 255, 0.5), -11em -1em 0em rgba(255, 255, 255, 0.25), -12em -2em 0em rgba(255, 255, 255, 0.25), -13em -3em 0em rgba(255, 255, 255, 0.25), -14em -4em 0em rgba(255, 255, 255, 0.5), -15em -5em 0em rgba(255, 255, 255, 0.5), -16em -6em 0em rgba(255, 255, 255, 0.5), -17em -7em 0em rgba(255, 255, 255, 0.5), -18em -8em 0em rgba(255, 255, 255, 0.5), -19em -9em 0em rgba(255, 255, 255, 0.5), -20em -10em 0em rgba(255, 255, 255, 0.5), -21em -11em 0em rgba(255, 255, 255, 0.5), -22em -12em 0em rgba(255, 255, 255, 0.5), -23em -13em 0em rgba(255, 255, 255, 0.5), -24em -14em 0em rgba(255, 255, 255, 0.5), -25em -15em 0em rgba(255, 255, 255, 0.5), -26em -16em 0em rgba(255, 255, 255, 0.5), -27em -17em 0em rgba(255, 255, 255, 0.5), -28em -18em 0em rgba(255, 255, 255, 0.5), -29em -19em 0em rgba(255, 255, 255, 0.5), -30em -20em 0em rgba(255, 255, 255, 0.5), -30em 0em 0em rgba(255, 255, 255, 0.5), -29em 1em 0em rgba(255, 255, 255, 0.5), -28em 2em 0em rgba(255, 255, 255, 0.5), -27em 3em 0em rgba(255, 255, 255, 0.5), -26em 4em 0em rgba(255, 255, 255, 0.5), -25em 5em 0em rgba(255, 255, 255, 0.5), -24em 6em 0em rgba(255, 255, 255, 0.5), -23em 7em 0em rgba(255, 255, 255, 0.5), -22em 8em 0em rgba(255, 255, 255, 0.5), -21em 9em 0em rgba(255, 255, 255, 0.5), -20em 10em 0em rgba(255, 255, 255, 0.5), -19em 11em 0em rgba(255, 255, 255, 0.5), -18em 12em 0em rgba(255, 255, 255, 0.5), -17em 13em 0em rgba(255, 255, 255, 0.5), -16em 14em 0em rgba(255, 255, 255, 0.5), -15em 15em 0em rgba(255, 255, 255, 0.5), -14em 16em 0em rgba(255, 255, 255, 0.5), -13em 17em 0em rgba(255, 255, 255, 0.5), -12em 18em 0em rgba(255, 255, 255, 0.5), -11em 19em 0em rgba(255, 255, 255, 0.5), -10em 20em 0em rgba(255, 255, 255, 0.5);
       -webkit-transition: text-shadow 1s, color 1s;
       -moz-transition: text-shadow 1s, color 1s;
-      transition: text-shadow 1s, color 1s; }
+      transition: text-shadow 1s, color 1s;
+      -ms-user-select: none;
+      -moz-user-select: -moz-none;
+      -webkit-user-select: none;
+      user-select: none; }
       .section_work .work_title_area .work_title:hover {
         text-shadow: none;
         color: rgba(255, 255, 255, 0.5);
@@ -1269,6 +1277,7 @@ a {
     font-size: 36px; }
   .spot .text_wrap {
     padding-top: 30px;
+    margin-top: -30px;
     height: 80px; }
   .spot .slide-bar {
     left: 50%;
@@ -1314,6 +1323,13 @@ a {
     height: 1500px; }
   .section_tech .stamp_box {
     top: 64px; }
+  .section_tech .bg_text_wrap [class*="bg_text"].bg_text01 {
+    margin-left: -140px; }
+  .section_tech .bg_text_wrap [class*="bg_text"].bg_text02 {
+    margin-top: -230px;
+    margin-left: 100px; }
+  .section_tech .bg_text_wrap [class*="bg_text"].bg_text03 {
+    margin-left: 70px; }
   .section_tech .tech_box .tech_text {
     font-size: 16px; }
   .section_tech .tech_box .tech_list_wrap {
@@ -1334,7 +1350,7 @@ a {
       .section_tech .tech_box .tech_list_wrap .tech_list .name {
         font-size: 12px; }
   .section_work .work_title_area .work_title {
-    font-size: 20px; }
+    font-size: 30px; }
   .section_work .title_area .desc {
     top: 100px;
     margin-left: 0;

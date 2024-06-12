@@ -195,7 +195,7 @@ $(document).ready(function(){
           event.clientY >= rect.top && event.clientY <= rect.bottom) {
           if (!currentStamp) {
               currentStamp = stamps[Math.floor(Math.random() * stamps.length)];
-              stampImg.src = `../src/img/tech_icon/${currentStamp.name}.svg`;
+              stampImg.src = `https://portfolio-2406.web.app/img/tech_icon/${currentStamp.name}.svg`;
               currentWidth = ww >= 900 ? Math.floor(Math.random() * (200 - 60 + 1)) + 40 :  Math.floor(Math.random() * (100 - 60 + 1)) + 60;
               currentRotation = Math.floor(Math.random() * 121) - 60;
               stampImg.style.width = `${currentWidth}px`;
@@ -240,7 +240,7 @@ $(document).ready(function(){
     
             // 클릭된 커서 이미지를 박스 안에 추가
             const Ckimg = document.createElement('img');
-            Ckimg.src = `../src/img/tech_icon/${clickedStamp.name}.svg`;
+            Ckimg.src = `https://portfolio-2406.web.app/img/tech_icon/${clickedStamp.name}.svg`;
             Ckimg.style.position = 'absolute';
 
             Ckimg.style.width = `${clickedWidth}px`;

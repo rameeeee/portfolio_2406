@@ -306,6 +306,7 @@
     }
 }
 .section_tech {
+    padding-bottom: 150px;
     background: #0A3255;
     color: #fff;
     text-align: center;
@@ -376,6 +377,9 @@
             .tech_box {
                 display: block;
             }
+            .ico_go {
+                bottom: 0;
+            }
         }
     }
     .tech_box {
@@ -391,6 +395,7 @@
         .tech_list_wrap {
             padding: 30px 20px 20px;
             margin: 30px 0 0;
+            background: #0A3255;
             border-radius: 20px;
             border: 1px solid #fff;
             opacity: 0;
@@ -421,7 +426,7 @@
         }
     }
     .ico_go {
-        bottom: -80px;
+        bottom: -20px;
         background: url(../img/ico_down.png) 50% 50% no-repeat;
         background-size: 100% auto;
         animation-delay: 5s;
@@ -707,6 +712,11 @@
               -10em 20em 0em rgba(255,255,255,0.5),              
               ;
             transition:text-shadow 1s, color 1s;
+            -ms-user-select: none; 
+            -moz-user-select: -moz-none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            user-select: none;
             
             &:hover {
               text-shadow:none;
@@ -1251,6 +1261,7 @@
         }
         .text_wrap {
             padding-top: 30px;
+            margin-top: -30px;
             height: 80px;
         }
         .slide-bar {
@@ -1295,6 +1306,20 @@
         .stamp_box {
             top: 64px;
         }
+        .bg_text_wrap {
+            [class*="bg_text"] {
+                &.bg_text01 {
+                    margin-left: -140px;
+                }
+                &.bg_text02 {
+                    margin-top: -230px;
+                    margin-left: 100px;
+                }
+                &.bg_text03 {
+                    margin-left: 70px;
+                }
+            }
+        }
         .tech_box {
             .tech_text {
                 font-size: 16px;
@@ -1319,7 +1344,7 @@
     .section_work {
         .work_title_area {
             .work_title {
-                font-size: 20px;
+                font-size: 30px;
             }
         }
         .title_area {

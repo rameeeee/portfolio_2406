@@ -126,18 +126,34 @@ document.addEventListener("DOMContentLoaded", function() {
         const reactSection = document.getElementById('section-react');
         const contactSection = document.getElementById('section-contact');
         
+        const newjeansWork = document.getElementById('work-newjeans');
+        const peopleWork = document.getElementById('work-peopleinfo');
+        const kbWork = document.getElementById('work-kb');
+        const snowWork = document.getElementById('work-snow');
+        const etcWork = document.getElementById('work-etc');
          
         const techOffsetTop = Math.floor(techSection.getBoundingClientRect().top + window.pageYOffset);
         const workOffsetTop = Math.floor(workSection.getBoundingClientRect().top + window.pageYOffset);
         const reactOffsetTop = Math.floor(reactSection.getBoundingClientRect().top + window.pageYOffset);
         const contactOffsetTop = Math.floor(contactSection.getBoundingClientRect().top + window.pageYOffset);
+
     
+        const newjeansOffsetTop = Math.floor(newjeansWork.getBoundingClientRect().top + window.pageYOffset);
+        const peopleOffsetTop = Math.floor(peopleWork.getBoundingClientRect().top + window.pageYOffset);
+        const kbOffsetTop = Math.floor(kbWork.getBoundingClientRect().top + window.pageYOffset);
+        const snowOffsetTop = Math.floor(snowWork.getBoundingClientRect().top + window.pageYOffset);
+        const etcOffsetTop = Math.floor(etcWork.getBoundingClientRect().top + window.pageYOffset);
+    
+        console.log(document.querySelector('.nav_people'))
 
         const navItems = document.querySelectorAll('.nav_item');
         navItems.forEach(item => {
             item.classList.remove('on');
         });
-        console.log(this.window.scroll !== this.document.body.offsetHeight - this.window.innerHeight)
+        const subNavItems = document.querySelectorAll('.sub_nav_item');
+        subNavItems.forEach(subItem => {
+            subItem.classList.remove('on');
+        });
     
         if (window.scrollY < workOffsetTop) {
             document.querySelector('.nav_item.nav_tech').classList.add('on');
@@ -149,6 +165,20 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.nav_item.nav_contact').classList.add('on');
         }
 
+        if (window.scrollY >= newjeansOffsetTop && window.scrollY < peopleOffsetTop) {
+            document.querySelector('.sub_nav_item.nav_newjeans').classList.add('on');
+        } else if (window.scrollY >= peopleOffsetTop && window.scrollY < kbOffsetTop) {
+            document.querySelector('.sub_nav_item.nav_people').classList.add('on');
+        } else if (window.scrollY >= kbOffsetTop && window.scrollY < snowOffsetTop) {
+            document.querySelector('.sub_nav_item.nav_kb').classList.add('on');
+        } else if (window.scrollY >= snowOffsetTop && window.scrollY < etcOffsetTop) {
+            document.querySelector('.sub_nav_item.nav_snow').classList.add('on');
+        } else if (window.scrollY >= etcOffsetTop && window.scrollY < reactOffsetTop) {
+            document.querySelector('.sub_nav_item.nav_etc').classList.add('on');
+        } else {
+            document.querySelector('.sub_nav_item').classList.remove('on');
+        }
+
         if(window.scrollY >= techOffsetTop) {
             document.querySelector('.section_tech').classList.add('active');
             document.querySelector('.content').classList.add('type_fixed');
@@ -157,6 +187,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       
     });
+
+    
 });
 
   
